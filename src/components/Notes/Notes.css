@@ -1,0 +1,78 @@
+.masonary {
+    display: flex;
+    padding: 10px 64px;
+}
+
+.animate-slide-fwd {
+    animation: slide-fwd 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940)both;
+}
+
+@keyframes slide-fwd {
+    0% {
+        -webkit-transform: translateZ(0px);
+        transform: translateZ(0px);
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
+    }
+}
+.note{
+    color: #fff;
+    width: 320px;
+    cursor: pointer;
+    background-color: #161d27;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+    border: 1px solid rgb(102, 102, 102);
+    cursor: pointer;
+    transition: transform 450ms;
+    object-fit: contain;
+}
+.note:hover {
+    transform: scale(1.02);
+    opacity: 1;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.title > h2{
+    font-size: 18px;
+}
+.note>p {
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+}
+.note-body{
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-note{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #161d27;
+    outline: none;
+    padding: 60px;
+    border-radius: 7px;
+}
+.modal-note > h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.modal-note > p{
+    color: gray;
+    line-height: 1.3;
+    font-weight: 600;
+}

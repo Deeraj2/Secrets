@@ -1,0 +1,80 @@
+.form{
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 0 15px;
+    background-color: #161d27;
+    border-radius: 6px;
+    object-fit: contain;
+}
+.notActive-from{
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    max-width: 60%;
+    background-color: #161d27;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
+.form > input{
+    padding: 15px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: none;
+    background-color: #161d27;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+}
+.ActiveText{
+    padding: 15px;
+    height: 140px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    background-color: #161d27;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    overflow: auto;
+}
+.NotActiveText{
+    padding: 13px;
+    font-size: 14px;
+    height: 30px;
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    background-color: #161d27;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+.add{
+    width: 90px;
+    padding: 9px;
+    align-self: flex-end;
+    border: none;
+    outline: none;
+    background-color: #6977c5;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 15px;
+}
