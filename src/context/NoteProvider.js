@@ -38,7 +38,6 @@ const NoteProvider = ({children}) => {
         setUser(userInfo);
 
         if(!user) navigate('/login');
-        fetchingNotes();
       },[])
 
     useEffect(()=>{
