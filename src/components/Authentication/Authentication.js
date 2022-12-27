@@ -67,7 +67,7 @@ const Authentication = () => {
       navigate("/diary");
       setAlert({
         open: true,
-        message: `Signup In Successful. Welcome ${user?.result.name}`,
+        message: `Signup In Successful. Welcome to Secrets`,
       });
     } catch (error) {
       setAlert({
@@ -101,7 +101,7 @@ const Authentication = () => {
       navigate("/diary");
       setAlert({
         open: true,
-        message: `Login In Successful. Welcome ${user?.result.name}`,
+        message: `Login In Successful. Welcome to Secrets`,
       });
     } catch (error) {
       console.log(error);
